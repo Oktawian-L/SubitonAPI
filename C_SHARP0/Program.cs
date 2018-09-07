@@ -68,6 +68,7 @@ namespace C_SHARP0
         public int Phone
         {
             set { phone = value;}
+
         }
 
         public void SetPhone(int number)

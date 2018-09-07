@@ -10,8 +10,18 @@ namespace C_SHARP0
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            var a = Console.ReadLine();
+            Console.WriteLine(a);
+
+            var studentGrades = new int[] { 1, 2, 34, 56, 7 };
+            foreach (var i in studentGrades)
+            {
+                Console.WriteLine(i);
+            }
+
             Console.ReadKey();
+
+            
         }
     }
 }
